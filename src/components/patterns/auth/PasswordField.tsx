@@ -23,10 +23,10 @@ export function PasswordField({
   const [showPassword, setShowPassword] = useState(false);
 
   return (
-    <div className="flex flex-col gap-xs">
-      <div className="flex items-center justify-between gap-md">
-        <label htmlFor={id} className="text-caption font-medium text-text-secondary">
-          {label} <span className="text-error-base">*</span>
+    <div className="flex flex-col gap-sg2-xs">
+      <div className="flex items-center justify-between gap-sg2-md">
+        <label htmlFor={id} className="text-sg2-body-sm font-medium text-sg2-text-secondary">
+          {label} <span className="text-sg2-danger-60">*</span>
         </label>
         {labelAction}
       </div>
@@ -38,13 +38,13 @@ export function PasswordField({
           onChange={(event) => onChange(event.target.value)}
           autoComplete={autoComplete}
           required
-          className="w-full rounded-xs border border-gray-5 bg-card px-lg py-md pr-4xl text-title text-text-primary outline-none transition-colors placeholder:text-text-secondary focus:border-primary-6 focus:ring-4 focus:ring-focus-ring/15"
+          className="w-full rounded-sg2-sm border border-sg2-gray-300 bg-sg2-bg-card px-sg2-md py-sg2-sm pr-sg2-3xl text-sg2-body-sm text-sg2-text-primary outline-none transition-colors placeholder:text-sg2-gray-500 focus:border-sg2-primary-100 focus:ring-4 focus:ring-sg2-focus-ring/15"
         />
         <button
           type="button"
           aria-label={showPassword ? 'Hide password' : 'Show password'}
           onClick={() => setShowPassword((visible) => !visible)}
-          className="absolute right-0 top-1/2 inline-flex h-[44px] w-[44px] -translate-y-1/2 items-center justify-center text-text-secondary transition-colors hover:text-text-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-focus-ring"
+          className="absolute right-0 top-1/2 inline-flex h-[44px] w-[44px] -translate-y-1/2 items-center justify-center text-sg2-gray-500 transition-colors hover:text-sg2-text-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sg2-focus-ring"
         >
           <HugeiconsIcon icon={showPassword ? EyeOffIcon : EyeIcon} size={16} />
         </button>

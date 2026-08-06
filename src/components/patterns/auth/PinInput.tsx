@@ -26,7 +26,7 @@ export function PinInput({ length = 6, value, onChange }: PinInputProps) {
   }
 
   return (
-    <div className="flex w-full gap-sm" role="group" aria-label="Six-digit security code">
+    <div className="flex w-full gap-sg2-sm" role="group" aria-label="Six-digit security code">
       {Array.from({ length }).map((_, i) => (
         <input
           key={i}
@@ -40,7 +40,7 @@ export function PinInput({ length = 6, value, onChange }: PinInputProps) {
           autoComplete={i === 0 ? 'one-time-code' : 'off'}
           maxLength={1}
           aria-label={`Digit ${i + 1}`}
-          className="min-w-0 flex-1 rounded-xs border border-gray-5 bg-card py-md text-center text-title text-text-primary outline-none transition-colors focus:border-primary-6 focus:ring-4 focus:ring-focus-ring/15"
+          className="min-w-0 flex-1 rounded-sg2-sm border border-sg2-gray-300 bg-sg2-bg-card py-sg2-sm text-center text-sg2-body-sm text-sg2-text-primary outline-none transition-colors focus:border-sg2-primary-100 focus:ring-4 focus:ring-sg2-focus-ring/15"
         />
       ))}
     </div>

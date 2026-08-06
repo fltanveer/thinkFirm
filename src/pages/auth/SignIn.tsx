@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { Tabs } from '../../components/ui/Tabs';
-import { Input } from '../../components/ui/Input';
-import { Checkbox } from '../../components/ui/Checkbox';
-import { Button } from '../../components/ui/Button';
+import { Tabs } from '../../components/ui2/Tabs';
+import { Input } from '../../components/ui2/Input';
+import { Checkbox } from '../../components/ui2/Checkbox';
+import { Button } from '../../components/ui2/Button';
 import { HugeiconsIcon } from '@hugeicons/react';
 import { Link01Icon, SmartPhone01Icon, LockPasswordIcon } from '@hugeicons-pro/core-stroke-rounded';
 import { AuthLayout } from '../../components/patterns/auth/AuthLayout';
@@ -34,13 +34,13 @@ export default function SignIn() {
     <AuthLayout>
       {alert && <AuthAlert {...alert} onDismiss={() => setAlert(null)} />}
 
-      <h1 className="text-h3 font-bold text-text-heading">Welcome back</h1>
-      <p className="mt-sm text-body text-text-secondary">Sign in to access your Enterprise workspace.</p>
+      <h1 className="text-sg2-h2 font-bold text-sg2-text-heading">Welcome back</h1>
+      <p className="mt-sg2-sm text-sg2-body-sm text-sg2-text-secondary">Sign in to access your Enterprise workspace.</p>
 
       {method === 'password' && (
         <Tabs
           variant="segmented"
-          className="mt-2xl w-full"
+          className="mt-sg2-xl w-full"
           items={[
             { value: 'signin', label: 'Sign In' },
             { value: 'signup', label: 'Sign Up' },
@@ -53,7 +53,7 @@ export default function SignIn() {
       )}
 
       <form
-        className="mt-2xl flex flex-col gap-xl"
+        className="mt-sg2-xl flex flex-col gap-sg2-lg"
         onSubmit={(e) => {
           e.preventDefault();
           if (method === 'magic-link') {
@@ -73,9 +73,9 @@ export default function SignIn() {
           }
         }}
       >
-        <div className="flex flex-col gap-xs">
-          <label htmlFor="signin-email" className="text-caption font-medium text-text-secondary">
-            Email <span className="text-error-base">*</span>
+        <div className="flex flex-col gap-sg2-xs">
+          <label htmlFor="signin-email" className="text-sg2-body-sm font-medium text-sg2-text-secondary">
+            Email <span className="text-sg2-danger-60">*</span>
           </label>
           <Input
             id="signin-email"
@@ -83,7 +83,7 @@ export default function SignIn() {
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             autoComplete="email"
-            size="lg"
+            size="md"
             required
           />
         </div>
@@ -96,7 +96,7 @@ export default function SignIn() {
             onChange={setPassword}
             autoComplete="current-password"
             labelAction={
-              <Link to="/auth/forgot-password" className="text-caption font-medium text-primary-6 hover:underline">
+              <Link to="/auth/forgot-password" className="text-sg2-body-sm font-medium text-sg2-text-link hover:underline">
                 Forgot password?
               </Link>
             }
@@ -104,23 +104,28 @@ export default function SignIn() {
         )}
 
         {method === '2fa' && (
-          <div className="flex flex-col gap-xs">
-            <label className="text-caption font-medium text-text-secondary">
-              Security code <span className="text-error-base">*</span>
+          <div className="flex flex-col gap-sg2-xs">
+            <label className="text-sg2-body-sm font-medium text-sg2-text-secondary">
+              Security code <span className="text-sg2-danger-60">*</span>
             </label>
             <PinInput value={pin} onChange={setPin} />
           </div>
         )}
 
-        <div className="flex items-start gap-sm">
-          <Checkbox checked={agreed} onChange={(event) => setAgreed(event.target.checked)} className="mt-[2px]" />
-          <p className="text-body text-text-secondary">
+        <div className="flex items-start gap-sg2-sm">
+          <Checkbox
+            size="sm"
+            checked={agreed}
+            onChange={(event) => setAgreed(event.target.checked)}
+            className="mt-[2px]"
+          />
+          <p className="text-sg2-body-sm text-sg2-text-secondary">
             I agree to the{' '}
-            <a href="#" onClick={(event) => event.preventDefault()} className="text-primary-6 hover:underline">
+            <a href="#" onClick={(event) => event.preventDefault()} className="text-sg2-text-link hover:underline">
               Terms and Conditions
             </a>{' '}
             and{' '}
-            <Link to="/policy" className="text-primary-6 hover:underline">
+            <Link to="/policy" className="text-sg2-text-link hover:underline">
               Privacy Policy
             </Link>
           </p>
@@ -138,18 +143,18 @@ export default function SignIn() {
         </Button>
       </form>
 
-      <div className="relative my-xl">
-        <div className="absolute inset-x-0 top-1/2 h-px -translate-y-1/2 bg-gray-4" />
-        <span className="relative mx-auto block w-fit bg-card px-md text-caption text-text-secondary">
+      <div className="relative my-sg2-lg">
+        <div className="absolute inset-x-0 top-1/2 h-px -translate-y-1/2 bg-sg2-border-subtle" />
+        <span className="relative mx-auto block w-fit bg-sg2-bg-card px-sg2-md text-sg2-caption text-sg2-text-secondary">
           Or use another sign-in method
         </span>
       </div>
 
-      <div className="grid grid-cols-2 gap-md">
+      <div className="grid grid-cols-2 gap-sg2-md">
         {otherMethods.map((m) => (
           <Button
             key={m}
-            variant="stroke-gray"
+            variant="stroke"
             size="md"
             icon={<HugeiconsIcon icon={METHOD_BUTTON[m].icon} size={15} />}
             onClick={() => setMethod(m)}
@@ -159,16 +164,16 @@ export default function SignIn() {
         ))}
       </div>
 
-      <div className="mt-2xl flex flex-col gap-sm text-center text-body text-text-secondary">
+      <div className="mt-sg2-xl flex flex-col gap-sg2-sm text-center text-sg2-body-md text-sg2-text-secondary">
         <p>
           New to Enterprise?{' '}
-          <Link to="/auth/sign-up" className="font-medium text-primary-6 hover:underline">
+          <Link to="/auth/sign-up" className="font-medium text-sg2-text-link hover:underline">
             Create an account
           </Link>
         </p>
         <p>
           Need help?{' '}
-          <Link to="/auth/contact-support" className="font-medium text-primary-6 hover:underline">
+          <Link to="/auth/contact-support" className="font-medium text-sg2-text-link hover:underline">
             Contact support
           </Link>
         </p>

@@ -1,47 +1,39 @@
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
-import { Input } from '../../components/ui/Input';
-import { Button } from '../../components/ui/Button';
+import { Link, useNavigate } from 'react-router-dom';
+import { Input } from '../../components/ui2/Input';
+import { Button } from '../../components/ui2/Button';
 import { HugeiconsIcon } from '@hugeicons/react';
 import { ArrowLeft01Icon, Link01Icon } from '@hugeicons-pro/core-stroke-rounded';
 import { AuthLayout } from '../../components/patterns/auth/AuthLayout';
-import { AuthAlert } from '../../components/patterns/auth/AuthAlert';
 
 export default function ForgotPassword() {
+  const navigate = useNavigate();
   const [email, setEmail] = useState('');
-  const [showConfirmation, setShowConfirmation] = useState(false);
 
   return (
     <AuthLayout>
-      {showConfirmation && (
-        <AuthAlert
-          variant="success"
-          title="Reset Link Sent"
-          message="We've sent a password reset link to your email address. Check your inbox and follow the instructions to reset your password."
-          onDismiss={() => setShowConfirmation(false)}
-        />
-      )}
-
-      <Link to="/auth/sign-in" className="-my-sm inline-flex items-center gap-xs py-sm text-caption font-medium text-text-secondary hover:text-primary-6">
+      <Link to="/auth/sign-in" className="-my-sg2-sm inline-flex items-center gap-sg2-xs py-sg2-sm text-sg2-body-sm font-medium text-sg2-text-secondary hover:text-sg2-text-link">
         <HugeiconsIcon icon={ArrowLeft01Icon} size={14} />
         Back to sign in
       </Link>
 
-      <h1 className="mt-2xl text-h3 font-bold text-text-heading">Reset your password</h1>
-      <p className="mt-sm text-body text-text-secondary">
+      <h1 className="mt-sg2-xl text-sg2-h2 font-bold text-sg2-text-heading">Reset your password</h1>
+      <p className="mt-sg2-sm text-sg2-body-sm text-sg2-text-secondary">
         Enter the email associated with your account and we'll send you a reset link.
       </p>
 
       <form
-        className="mt-2xl flex flex-col gap-xl"
+        className="mt-sg2-xl flex flex-col gap-sg2-lg"
         onSubmit={(e) => {
           e.preventDefault();
-          setShowConfirmation(true);
+          navigate('/auth/reset-password', {
+            state: { email, resetLinkSent: true },
+          });
         }}
       >
-        <div className="flex flex-col gap-xs">
-          <label htmlFor="forgot-email" className="text-caption font-medium text-text-secondary">
-            Email <span className="text-error-base">*</span>
+        <div className="flex flex-col gap-sg2-xs">
+          <label htmlFor="forgot-email" className="text-sg2-body-sm font-medium text-sg2-text-secondary">
+            Email <span className="text-sg2-danger-60">*</span>
           </label>
           <Input
             id="forgot-email"
@@ -49,19 +41,19 @@ export default function ForgotPassword() {
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             autoComplete="email"
-            size="lg"
+            size="md"
             required
           />
         </div>
 
         <Button type="submit" variant="primary" size="md" className="w-full" icon={<HugeiconsIcon icon={Link01Icon} size={15} />}>
-          {showConfirmation ? 'Resend reset link' : 'Send reset link'}
+          Send reset link
         </Button>
       </form>
 
-      <p className="mt-2xl text-center text-body text-text-secondary">
+      <p className="mt-sg2-xl text-center text-sg2-body-md text-sg2-text-secondary">
         Need help?{' '}
-        <Link to="/auth/contact-support" className="font-medium text-primary-6 hover:underline">
+        <Link to="/auth/contact-support" className="font-medium text-sg2-text-link hover:underline">
           Contact support
         </Link>
       </p>
