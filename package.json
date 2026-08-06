@@ -5,12 +5,18 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build:tokens": "node scripts/build-tokens.mjs",
+    "build:tokens": "node scripts/build-tokens.mjs && node scripts/build-tokens-2.mjs",
     "build": "npm run build:tokens && tsc -b && vite build",
     "lint": "oxlint",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@hugeicons-pro/core-bulk-rounded": "^4.2.3",
+    "@hugeicons-pro/core-duotone-rounded": "^4.2.3",
+    "@hugeicons-pro/core-solid-rounded": "^4.2.3",
+    "@hugeicons-pro/core-stroke-rounded": "^4.2.3",
+    "@hugeicons-pro/core-twotone-rounded": "^4.2.3",
+    "@hugeicons/react": "^1.1.9",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
     "react-router-dom": "^7.18.2"

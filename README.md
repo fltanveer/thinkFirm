@@ -30,15 +30,3 @@ If you are developing a production application, we recommend enabling type-aware
 ```
 
 See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
-# Design comments
-
-The Comment button works separately from Inspect on every page. Without backend configuration, comments persist in the current browser and can be downloaded using **Export** in the comments panel.
-
-To share comments between reviewers on a deployed site:
-
-1. Create a Supabase project.
-2. Run `design-comments.sql` in its SQL editor.
-3. Copy `.env.example` to `.env.local` and provide the project URL and public anonymous key.
-4. Add the same two environment variables to the deployment platform.
-
-The supplied policies intentionally allow anyone with access to the review site to create, resolve, and delete comments. Protect the review site or replace these policies with authenticated-user policies before using it publicly.

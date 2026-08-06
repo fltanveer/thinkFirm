@@ -292,6 +292,68 @@ export function IconTrash(props: SVGProps<SVGSVGElement>) {
   );
 }
 
+export function IconCalendar(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg {...base} {...props}>
+      <rect x="2.5" y="3.5" width="11" height="10" rx="1.5" />
+      <path d="M2.5 6.5h11M5.5 2v3M10.5 2v3" />
+    </svg>
+  );
+}
+
+export function IconArrowLeft(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg {...base} {...props}>
+      <path d="M13 8H3M7 4l-4 4 4 4" />
+    </svg>
+  );
+}
+
+export function IconArrowRight(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg {...base} {...props}>
+      <path d="M3 8h10M9 4l4 4-4 4" />
+    </svg>
+  );
+}
+
+export function IconEye(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg {...base} {...props}>
+      <path d="M1.5 8S4 3 8 3s6.5 5 6.5 5-2.5 5-6.5 5-6.5-5-6.5-5z" />
+      <circle cx="8" cy="8" r="2" />
+    </svg>
+  );
+}
+
+export function IconEyeOff(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg {...base} {...props}>
+      <path d="M2 2l12 12" />
+      <path d="M6.6 3.4A6.5 6.5 0 0 1 8 3c4 0 6.5 5 6.5 5a12 12 0 0 1-2.1 2.7M4.4 4.4A12.4 12.4 0 0 0 1.5 8s2.5 5 6.5 5a6.4 6.4 0 0 0 2.6-.55" />
+      <path d="M6.6 9.4a2 2 0 0 0 2.8 2.8" />
+    </svg>
+  );
+}
+
+export function IconLink(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg {...base} {...props}>
+      <path d="M6.5 9.5l3-3" />
+      <path d="M7 5.5l.7-.7a2.5 2.5 0 0 1 3.5 3.5l-.7.7M9 10.5l-.7.7a2.5 2.5 0 0 1-3.5-3.5l.7-.7" />
+    </svg>
+  );
+}
+
+export function IconSmartphone(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg {...base} {...props}>
+      <rect x="4.5" y="1.5" width="7" height="13" rx="1.5" />
+      <path d="M7.25 12h1.5" />
+    </svg>
+  );
+}
+
 export function IconSpinner(props: SVGProps<SVGSVGElement>) {
   return (
     <svg

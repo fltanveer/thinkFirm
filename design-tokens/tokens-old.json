@@ -1,0 +1,1678 @@
+{
+    "1": {
+        " Color Styles/Mode 1": {
+            "Base": {
+                "white": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": false
+                    },
+                    "$value": "#FFFFFF",
+                    "$type": "color",
+                    "$description": "Confirmed from ThinkFirm Figma audit."
+                },
+                "black": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": false
+                    },
+                    "$value": "#000000",
+                    "$type": "color",
+                    "$description": "Confirmed from ThinkFirm Figma audit."
+                }
+            },
+            "Neutral-Gray": {
+                "gray-50": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": false
+                    },
+                    "$value": "#FAFAFA",
+                    "$type": "color",
+                    "$description": "Standard Zinc-scale value, used to complete the neutral ramp (ThinkFirm's confirmed steps are an exact match to Tailwind Zinc)."
+                },
+                "gray-100": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": false
+                    },
+                    "$value": "#F4F4F5",
+                    "$type": "color",
+                    "$description": "Confirmed from ThinkFirm Figma audit."
+                },
+                "gray-200": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": false
+                    },
+                    "$value": "#E4E4E7",
+                    "$type": "color",
+                    "$description": "Confirmed from ThinkFirm Figma audit."
+                },
+                "gray-300": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": false
+                    },
+                    "$value": "#D4D4D8",
+                    "$type": "color",
+                    "$description": "Confirmed from ThinkFirm Figma audit."
+                },
+                "gray-400": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": false
+                    },
+                    "$value": "#A1A1AA",
+                    "$type": "color",
+                    "$description": "Standard Zinc-scale value, used to complete the neutral ramp (ThinkFirm's confirmed steps are an exact match to Tailwind Zinc)."
+                },
+                "gray-500": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": false
+                    },
+                    "$value": "#71717A",
+                    "$type": "color",
+                    "$description": "Confirmed from ThinkFirm Figma audit."
+                },
+                "gray-600": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": false
+                    },
+                    "$value": "#52525B",
+                    "$type": "color",
+                    "$description": "Confirmed from ThinkFirm Figma audit."
+                },
+                "gray-700": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": false
+                    },
+                    "$value": "#3F3F46",
+                    "$type": "color",
+                    "$description": "Confirmed from ThinkFirm Figma audit."
+                },
+                "gray-800": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": false
+                    },
+                    "$value": "#27272A",
+                    "$type": "color",
+                    "$description": "Standard Zinc-scale value, used to complete the neutral ramp (ThinkFirm's confirmed steps are an exact match to Tailwind Zinc)."
+                },
+                "gray-900": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": false
+                    },
+                    "$value": "#18181B",
+                    "$type": "color",
+                    "$description": "Standard Zinc-scale value, used to complete the neutral ramp (ThinkFirm's confirmed steps are an exact match to Tailwind Zinc)."
+                },
+                "gray-950": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": false
+                    },
+                    "$value": "#09090B",
+                    "$type": "color",
+                    "$description": "Standard Zinc-scale value, used to complete the neutral ramp (ThinkFirm's confirmed steps are an exact match to Tailwind Zinc)."
+                }
+            },
+            "Primary": {
+                "primary-10": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": false
+                    },
+                    "$value": "#f8fbff",
+                    "$type": "color",
+                    "$description": "Generated to complete the Primary ramp — not a literal value pulled from Figma."
+                },
+                "primary-20": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": false
+                    },
+                    "$value": "#f5f9ff",
+                    "$type": "color",
+                    "$description": "Generated to complete the Primary ramp — not a literal value pulled from Figma."
+                },
+                "primary-30": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": false
+                    },
+                    "$value": "#F3F8FF",
+                    "$type": "color",
+                    "$description": "Confirmed from ThinkFirm Figma audit."
+                },
+                "primary-40": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": false
+                    },
+                    "$value": "#d4e5ff",
+                    "$type": "color",
+                    "$description": "Generated to complete the Primary ramp — not a literal value pulled from Figma."
+                },
+                "primary-50": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": false
+                    },
+                    "$value": "#b5d2ff",
+                    "$type": "color",
+                    "$description": "Generated to complete the Primary ramp — not a literal value pulled from Figma."
+                },
+                "primary-60": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": false
+                    },
+                    "$value": "#96bfff",
+                    "$type": "color",
+                    "$description": "Generated to complete the Primary ramp — not a literal value pulled from Figma."
+                },
+                "primary-70": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": false
+                    },
+                    "$value": "#76abff",
+                    "$type": "color",
+                    "$description": "Generated to complete the Primary ramp — not a literal value pulled from Figma."
+                },
+                "primary-80": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": false
+                    },
+                    "$value": "#5796ff",
+                    "$type": "color",
+                    "$description": "Generated to complete the Primary ramp — not a literal value pulled from Figma."
+                },
+                "primary-90": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": false
+                    },
+                    "$value": "#3881ff",
+                    "$type": "color",
+                    "$description": "Generated to complete the Primary ramp — not a literal value pulled from Figma."
+                },
+                "primary-100": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": false
+                    },
+                    "$value": "#196BFF",
+                    "$type": "color",
+                    "$description": "Confirmed from ThinkFirm Figma audit."
+                }
+            },
+            "Supporting": {
+                "supporting-70": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": false
+                    },
+                    "$value": "#3761AD",
+                    "$type": "color",
+                    "$description": "Confirmed from ThinkFirm Figma audit. Only this single step was found in the source files; treat as a spot color, not a full ramp."
+                },
+                "supporting-indigo-100": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": false
+                    },
+                    "$value": "#312E81",
+                    "$type": "color",
+                    "$description": "Confirmed from ThinkFirm Figma audit. Only this single step was found in the source files; treat as a spot color, not a full ramp."
+                }
+            },
+            "Text-Colors": {
+                "text-heading": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": true
+                    },
+                    "$value": "{Neutral-Gray.gray-900}",
+                    "$type": "color",
+                    "$description": "Derived from the confirmed neutral scale."
+                },
+                "text-primary": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": true
+                    },
+                    "$value": "{Neutral-Gray.gray-800}",
+                    "$type": "color",
+                    "$description": "Derived from the confirmed neutral scale."
+                },
+                "text-secondary": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": true
+                    },
+                    "$value": "{Neutral-Gray.gray-500}",
+                    "$type": "color",
+                    "$description": "Derived from the confirmed neutral scale — matches the confirmed Gray-500 step exactly."
+                },
+                "text-disabled": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": true
+                    },
+                    "$value": "{Neutral-Gray.gray-300}",
+                    "$type": "color",
+                    "$description": "Derived from the confirmed neutral scale — matches the confirmed Gray-300 step exactly."
+                },
+                "text-on-primary": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": true
+                    },
+                    "$value": "{Base.white}",
+                    "$type": "color"
+                },
+                "text-link": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": true
+                    },
+                    "$value": "{Primary.primary-100}",
+                    "$type": "color",
+                    "$description": "Confirmed brand blue, reused as the link color."
+                }
+            },
+            "Surface": {
+                "bg-page": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": true
+                    },
+                    "$value": "{Neutral-Gray.gray-50}",
+                    "$type": "color"
+                },
+                "bg-layout": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": true
+                    },
+                    "$value": "{Neutral-Gray.gray-100}",
+                    "$type": "color"
+                },
+                "bg-card": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": true
+                    },
+                    "$value": "{Base.white}",
+                    "$type": "color"
+                },
+                "bg-nested-card": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": true
+                    },
+                    "$value": "{Neutral-Gray.gray-50}",
+                    "$type": "color"
+                },
+                "bg-well": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": true
+                    },
+                    "$value": "{Neutral-Gray.gray-100}",
+                    "$type": "color"
+                },
+                "bg-primary-subtle": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": true
+                    },
+                    "$value": "{Primary.primary-30}",
+                    "$type": "color",
+                    "$description": "Confirmed light brand tint, used for selected/subtle states."
+                }
+            },
+            "Border": {
+                "border-default": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": true
+                    },
+                    "$value": "{Neutral-Gray.gray-300}",
+                    "$type": "color",
+                    "$description": "Matches the confirmed Gray-300 step exactly."
+                },
+                "border-subtle": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": true
+                    },
+                    "$value": "{Neutral-Gray.gray-200}",
+                    "$type": "color",
+                    "$description": "Matches the confirmed Gray-200 step exactly."
+                },
+                "border-strong": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": true
+                    },
+                    "$value": "{Neutral-Gray.gray-400}",
+                    "$type": "color"
+                },
+                "border-focus": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": true
+                    },
+                    "$value": "{Primary.primary-100}",
+                    "$type": "color"
+                }
+            },
+            "Interactive-States": {
+                "primary-default": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": true
+                    },
+                    "$value": "{Primary.primary-100}",
+                    "$type": "color"
+                },
+                "primary-hover": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": true
+                    },
+                    "$value": "{Primary.primary-90}",
+                    "$type": "color",
+                    "$description": "One step darker than default, for hover."
+                },
+                "primary-pressed": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": true
+                    },
+                    "$value": "{Primary.primary-80}",
+                    "$type": "color",
+                    "$description": "Two steps darker than default, for pressed/active."
+                },
+                "primary-disabled": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": true
+                    },
+                    "$value": "{Neutral-Gray.gray-300}",
+                    "$type": "color"
+                },
+                "danger-default": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": true
+                    },
+                    "$value": "{Danger.danger-60}",
+                    "$type": "color"
+                },
+                "danger-hover": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": true
+                    },
+                    "$value": "{Danger.danger-70}",
+                    "$type": "color"
+                },
+                "success-default": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": true
+                    },
+                    "$value": "{Success.success-90}",
+                    "$type": "color"
+                },
+                "warning-default": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": true
+                    },
+                    "$value": "{Warning.warning-60}",
+                    "$type": "color"
+                }
+            },
+            "Success-color": {
+                "success-10": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": false
+                    },
+                    "$value": "#f1f7f0",
+                    "$type": "color",
+                    "$description": "Generated to complete the success ramp — not a literal value pulled from Figma."
+                },
+                "success-20": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": false
+                    },
+                    "$value": "#EBF3E9",
+                    "$type": "color",
+                    "$description": "Confirmed from ThinkFirm Figma audit."
+                },
+                "success-30": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": false
+                    },
+                    "$value": "#d3e6ce",
+                    "$type": "color",
+                    "$description": "Generated to complete the success ramp — not a literal value pulled from Figma."
+                },
+                "success-40": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": false
+                    },
+                    "$value": "#bbdbb2",
+                    "$type": "color",
+                    "$description": "Generated to complete the success ramp — not a literal value pulled from Figma."
+                },
+                "success-50": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": false
+                    },
+                    "$value": "#A2D195",
+                    "$type": "color",
+                    "$description": "Confirmed from ThinkFirm Figma audit."
+                },
+                "success-60": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": false
+                    },
+                    "$value": "#93C385",
+                    "$type": "color",
+                    "$description": "Confirmed from ThinkFirm Figma audit."
+                },
+                "success-70": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": false
+                    },
+                    "$value": "#75b562",
+                    "$type": "color",
+                    "$description": "Generated to complete the success ramp — not a literal value pulled from Figma."
+                },
+                "success-80": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": false
+                    },
+                    "$value": "#5b9e47",
+                    "$type": "color",
+                    "$description": "Generated to complete the success ramp — not a literal value pulled from Figma."
+                },
+                "success-90": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": false
+                    },
+                    "$value": "#477E36",
+                    "$type": "color",
+                    "$description": "Confirmed from ThinkFirm Figma audit."
+                },
+                "success-100": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": false
+                    },
+                    "$value": "#3c6b2e",
+                    "$type": "color",
+                    "$description": "Generated to complete the success ramp — not a literal value pulled from Figma."
+                }
+            },
+            "Warning-color": {
+                "warning-10": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": false
+                    },
+                    "$value": "#f8d17b",
+                    "$type": "color",
+                    "$description": "Generated to complete the warning ramp — not a literal value pulled from Figma."
+                },
+                "warning-20": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": false
+                    },
+                    "$value": "#F5BD42",
+                    "$type": "color",
+                    "$description": "Confirmed from ThinkFirm Figma audit."
+                },
+                "warning-30": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": false
+                    },
+                    "$value": "#f2b63d",
+                    "$type": "color",
+                    "$description": "Generated to complete the warning ramp — not a literal value pulled from Figma."
+                },
+                "warning-40": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": false
+                    },
+                    "$value": "#eeaf39",
+                    "$type": "color",
+                    "$description": "Generated to complete the warning ramp — not a literal value pulled from Figma."
+                },
+                "warning-50": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": false
+                    },
+                    "$value": "#eaa834",
+                    "$type": "color",
+                    "$description": "Generated to complete the warning ramp — not a literal value pulled from Figma."
+                },
+                "warning-60": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": false
+                    },
+                    "$value": "#E6A130",
+                    "$type": "color",
+                    "$description": "Confirmed from ThinkFirm Figma audit."
+                },
+                "warning-70": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": false
+                    },
+                    "$value": "#c48929",
+                    "$type": "color",
+                    "$description": "Generated to complete the warning ramp — not a literal value pulled from Figma."
+                },
+                "warning-80": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": false
+                    },
+                    "$value": "#a17122",
+                    "$type": "color",
+                    "$description": "Generated to complete the warning ramp — not a literal value pulled from Figma."
+                },
+                "warning-90": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": false
+                    },
+                    "$value": "#7f591a",
+                    "$type": "color",
+                    "$description": "Generated to complete the warning ramp — not a literal value pulled from Figma."
+                },
+                "warning-100": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": false
+                    },
+                    "$value": "#5c4013",
+                    "$type": "color",
+                    "$description": "Generated to complete the warning ramp — not a literal value pulled from Figma."
+                }
+            },
+            "Danger-color": {
+                "danger-10": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": false
+                    },
+                    "$value": "#f1ab99",
+                    "$type": "color",
+                    "$description": "Generated to complete the danger ramp — not a literal value pulled from Figma."
+                },
+                "danger-20": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": false
+                    },
+                    "$value": "#ed957d",
+                    "$type": "color",
+                    "$description": "Generated to complete the danger ramp — not a literal value pulled from Figma."
+                },
+                "danger-30": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": false
+                    },
+                    "$value": "#e97e61",
+                    "$type": "color",
+                    "$description": "Generated to complete the danger ramp — not a literal value pulled from Figma."
+                },
+                "danger-40": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": false
+                    },
+                    "$value": "#E56745",
+                    "$type": "color",
+                    "$description": "Confirmed from ThinkFirm Figma audit."
+                },
+                "danger-50": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": false
+                    },
+                    "$value": "#e03e22",
+                    "$type": "color",
+                    "$description": "Generated to complete the danger ramp — not a literal value pulled from Figma."
+                },
+                "danger-60": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": false
+                    },
+                    "$value": "#BF281B",
+                    "$type": "color",
+                    "$description": "Confirmed from ThinkFirm Figma audit."
+                },
+                "danger-70": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": false
+                    },
+                    "$value": "#a22217",
+                    "$type": "color",
+                    "$description": "Generated to complete the danger ramp — not a literal value pulled from Figma."
+                },
+                "danger-80": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": false
+                    },
+                    "$value": "#861c13",
+                    "$type": "color",
+                    "$description": "Generated to complete the danger ramp — not a literal value pulled from Figma."
+                },
+                "danger-90": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": false
+                    },
+                    "$value": "#69160f",
+                    "$type": "color",
+                    "$description": "Generated to complete the danger ramp — not a literal value pulled from Figma."
+                },
+                "danger-100": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": false
+                    },
+                    "$value": "#4c100b",
+                    "$type": "color",
+                    "$description": "Generated to complete the danger ramp — not a literal value pulled from Figma."
+                }
+            },
+            "Info-color": {
+                "info-10": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": false
+                    },
+                    "$value": "#f0f7fd",
+                    "$type": "color",
+                    "$description": "Generated to complete the info ramp — not a literal value pulled from Figma."
+                },
+                "info-20": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": false
+                    },
+                    "$value": "#EAF3FC",
+                    "$type": "color",
+                    "$description": "Confirmed from ThinkFirm Figma audit."
+                },
+                "info-30": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": false
+                    },
+                    "$value": "#bbd7f8",
+                    "$type": "color",
+                    "$description": "Generated to complete the info ramp — not a literal value pulled from Figma."
+                },
+                "info-40": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": false
+                    },
+                    "$value": "#88b8f7",
+                    "$type": "color",
+                    "$description": "Generated to complete the info ramp — not a literal value pulled from Figma."
+                },
+                "info-50": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": false
+                    },
+                    "$value": "#5294f9",
+                    "$type": "color",
+                    "$description": "Generated to complete the info ramp — not a literal value pulled from Figma."
+                },
+                "info-60": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": false
+                    },
+                    "$value": "#196BFF",
+                    "$type": "color",
+                    "$description": "Confirmed from ThinkFirm Figma audit."
+                },
+                "info-70": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": false
+                    },
+                    "$value": "#155bd9",
+                    "$type": "color",
+                    "$description": "Generated to complete the info ramp — not a literal value pulled from Figma."
+                },
+                "info-80": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": false
+                    },
+                    "$value": "#124bb3",
+                    "$type": "color",
+                    "$description": "Generated to complete the info ramp — not a literal value pulled from Figma."
+                },
+                "info-90": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": false
+                    },
+                    "$value": "#0e3b8c",
+                    "$type": "color",
+                    "$description": "Generated to complete the info ramp — not a literal value pulled from Figma."
+                },
+                "info-100": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": false
+                    },
+                    "$value": "#0a2b66",
+                    "$type": "color",
+                    "$description": "Generated to complete the info ramp — not a literal value pulled from Figma."
+                }
+            },
+            "Effects": {
+                "Shadows": {
+                    "shadow-xs": {
+                        "$extensions": {
+                            "com.figma.scopes": [
+                                "ALL_SCOPES"
+                            ],
+                            "com.figma.hiddenFromPublishing": false
+                        },
+                        "$value": "#0A0D120D",
+                        "$type": "color",
+                        "$description": "Standard elevation value — effect styles were outside the scope of the Figma audit."
+                    },
+                    "shadow-sm": {
+                        "$extensions": {
+                            "com.figma.scopes": [
+                                "ALL_SCOPES"
+                            ],
+                            "com.figma.hiddenFromPublishing": false
+                        },
+                        "$value": "#0A0D121A",
+                        "$type": "color",
+                        "$description": "Standard elevation value — effect styles were outside the scope of the Figma audit."
+                    },
+                    "shadow-md": {
+                        "$extensions": {
+                            "com.figma.scopes": [
+                                "ALL_SCOPES"
+                            ],
+                            "com.figma.hiddenFromPublishing": false
+                        },
+                        "$value": "#0A0D1224",
+                        "$type": "color",
+                        "$description": "Standard elevation value — effect styles were outside the scope of the Figma audit."
+                    },
+                    "shadow-lg": {
+                        "$extensions": {
+                            "com.figma.scopes": [
+                                "ALL_SCOPES"
+                            ],
+                            "com.figma.hiddenFromPublishing": false
+                        },
+                        "$value": "#0A0D122E",
+                        "$type": "color",
+                        "$description": "Standard elevation value — effect styles were outside the scope of the Figma audit."
+                    },
+                    "shadow-xl": {
+                        "$extensions": {
+                            "com.figma.scopes": [
+                                "ALL_SCOPES"
+                            ],
+                            "com.figma.hiddenFromPublishing": false
+                        },
+                        "$value": "#0A0D1238",
+                        "$type": "color",
+                        "$description": "Standard elevation value — effect styles were outside the scope of the Figma audit."
+                    }
+                },
+                "Focus rings": {
+                    "focus-ring": {
+                        "$extensions": {
+                            "com.figma.scopes": [
+                                "STROKE_COLOR",
+                                "EFFECT_COLOR"
+                            ],
+                            "com.figma.hiddenFromPublishing": true
+                        },
+                        "$value": "{Primary.primary-100}",
+                        "$type": "color"
+                    },
+                    "focus-ring-danger": {
+                        "$extensions": {
+                            "com.figma.scopes": [
+                                "STROKE_COLOR",
+                                "EFFECT_COLOR"
+                            ],
+                            "com.figma.hiddenFromPublishing": true
+                        },
+                        "$value": "{Danger.danger-60}",
+                        "$type": "color"
+                    }
+                }
+            }
+        }
+    },
+    "2": {
+        " Radius/Mode 1": {
+            "radius-none": {
+                "$extensions": {
+                    "com.figma.scopes": [
+                        "CORNER_RADIUS"
+                    ],
+                    "com.figma.hiddenFromPublishing": true
+                },
+                "$value": 0,
+                "$type": "number",
+                "$description": "Generated to complete the radius ramp — not a literal value pulled from Figma."
+            },
+            "radius-xs": {
+                "$extensions": {
+                    "com.figma.scopes": [
+                        "CORNER_RADIUS"
+                    ],
+                    "com.figma.hiddenFromPublishing": true
+                },
+                "$value": 2,
+                "$type": "number",
+                "$description": "Confirmed from ThinkFirm Figma audit. (source token was named \"Radius2\")."
+            },
+            "radius-sm": {
+                "$extensions": {
+                    "com.figma.scopes": [
+                        "CORNER_RADIUS"
+                    ],
+                    "com.figma.hiddenFromPublishing": true
+                },
+                "$value": 4,
+                "$type": "number",
+                "$description": "Generated to complete the radius ramp — not a literal value pulled from Figma."
+            },
+            "radius-md": {
+                "$extensions": {
+                    "com.figma.scopes": [
+                        "CORNER_RADIUS"
+                    ],
+                    "com.figma.hiddenFromPublishing": true
+                },
+                "$value": 6,
+                "$type": "number",
+                "$description": "Generated to complete the radius ramp — not a literal value pulled from Figma."
+            },
+            "radius-lg": {
+                "$extensions": {
+                    "com.figma.scopes": [
+                        "CORNER_RADIUS"
+                    ],
+                    "com.figma.hiddenFromPublishing": true
+                },
+                "$value": 8,
+                "$type": "number",
+                "$description": "Generated to complete the radius ramp — not a literal value pulled from Figma."
+            },
+            "radius-xl": {
+                "$extensions": {
+                    "com.figma.scopes": [
+                        "CORNER_RADIUS"
+                    ],
+                    "com.figma.hiddenFromPublishing": true
+                },
+                "$value": 10,
+                "$type": "number",
+                "$description": "Generated to complete the radius ramp — not a literal value pulled from Figma."
+            },
+            "radius-2xl": {
+                "$extensions": {
+                    "com.figma.scopes": [
+                        "CORNER_RADIUS"
+                    ],
+                    "com.figma.hiddenFromPublishing": true
+                },
+                "$value": 12,
+                "$type": "number",
+                "$description": "Generated to complete the radius ramp — not a literal value pulled from Figma."
+            },
+            "radius-3xl": {
+                "$extensions": {
+                    "com.figma.scopes": [
+                        "CORNER_RADIUS"
+                    ],
+                    "com.figma.hiddenFromPublishing": true
+                },
+                "$value": 16,
+                "$type": "number",
+                "$description": "Generated to complete the radius ramp — not a literal value pulled from Figma."
+            },
+            "radius-4xl": {
+                "$extensions": {
+                    "com.figma.scopes": [
+                        "CORNER_RADIUS"
+                    ],
+                    "com.figma.hiddenFromPublishing": true
+                },
+                "$value": 20,
+                "$type": "number",
+                "$description": "Generated to complete the radius ramp — not a literal value pulled from Figma."
+            },
+            "radius-5xl": {
+                "$extensions": {
+                    "com.figma.scopes": [
+                        "CORNER_RADIUS"
+                    ],
+                    "com.figma.hiddenFromPublishing": true
+                },
+                "$value": 24,
+                "$type": "number",
+                "$description": "Generated to complete the radius ramp — not a literal value pulled from Figma."
+            },
+            "radius-full": {
+                "$extensions": {
+                    "com.figma.scopes": [
+                        "CORNER_RADIUS"
+                    ],
+                    "com.figma.hiddenFromPublishing": true
+                },
+                "$value": 9999,
+                "$type": "number",
+                "$description": "Generated to complete the radius ramp — not a literal value pulled from Figma."
+            }
+        }
+    },
+    "3": {
+        " Spacing/Mode 1": {
+            "spacing-none": {
+                "$extensions": {
+                    "com.figma.scopes": [
+                        "GAP"
+                    ],
+                    "com.figma.hiddenFromPublishing": true
+                },
+                "$value": 0,
+                "$type": "number",
+                "$description": "Generated to complete the spacing ramp — not a literal value pulled from Figma."
+            },
+            "spacing-xxs": {
+                "$extensions": {
+                    "com.figma.scopes": [
+                        "GAP"
+                    ],
+                    "com.figma.hiddenFromPublishing": true
+                },
+                "$value": 2,
+                "$type": "number",
+                "$description": "Generated to complete the spacing ramp — not a literal value pulled from Figma."
+            },
+            "spacing-xs": {
+                "$extensions": {
+                    "com.figma.scopes": [
+                        "GAP"
+                    ],
+                    "com.figma.hiddenFromPublishing": true
+                },
+                "$value": 4,
+                "$type": "number",
+                "$description": "Confirmed from ThinkFirm Figma audit."
+            },
+            "spacing-sm": {
+                "$extensions": {
+                    "com.figma.scopes": [
+                        "GAP"
+                    ],
+                    "com.figma.hiddenFromPublishing": true
+                },
+                "$value": 8,
+                "$type": "number",
+                "$description": "Confirmed from ThinkFirm Figma audit."
+            },
+            "spacing-md": {
+                "$extensions": {
+                    "com.figma.scopes": [
+                        "GAP"
+                    ],
+                    "com.figma.hiddenFromPublishing": true
+                },
+                "$value": 12,
+                "$type": "number",
+                "$description": "Confirmed from ThinkFirm Figma audit."
+            },
+            "spacing-lg": {
+                "$extensions": {
+                    "com.figma.scopes": [
+                        "GAP"
+                    ],
+                    "com.figma.hiddenFromPublishing": true
+                },
+                "$value": 16,
+                "$type": "number",
+                "$description": "Confirmed from ThinkFirm Figma audit."
+            },
+            "spacing-xl": {
+                "$extensions": {
+                    "com.figma.scopes": [
+                        "GAP"
+                    ],
+                    "com.figma.hiddenFromPublishing": true
+                },
+                "$value": 24,
+                "$type": "number",
+                "$description": "Confirmed from ThinkFirm Figma audit."
+            },
+            "spacing-2xl": {
+                "$extensions": {
+                    "com.figma.scopes": [
+                        "GAP"
+                    ],
+                    "com.figma.hiddenFromPublishing": true
+                },
+                "$value": 32,
+                "$type": "number",
+                "$description": "Confirmed from ThinkFirm Figma audit."
+            },
+            "spacing-3xl": {
+                "$extensions": {
+                    "com.figma.scopes": [
+                        "GAP"
+                    ],
+                    "com.figma.hiddenFromPublishing": true
+                },
+                "$value": 56,
+                "$type": "number",
+                "$description": "Confirmed from ThinkFirm Figma audit."
+            },
+            "spacing-4xl": {
+                "$extensions": {
+                    "com.figma.scopes": [
+                        "GAP"
+                    ],
+                    "com.figma.hiddenFromPublishing": true
+                },
+                "$value": 64,
+                "$type": "number",
+                "$description": "Generated to complete the spacing ramp — not a literal value pulled from Figma."
+            },
+            "spacing-5xl": {
+                "$extensions": {
+                    "com.figma.scopes": [
+                        "GAP"
+                    ],
+                    "com.figma.hiddenFromPublishing": true
+                },
+                "$value": 80,
+                "$type": "number",
+                "$description": "Generated to complete the spacing ramp — not a literal value pulled from Figma."
+            },
+            "spacing-6xl": {
+                "$extensions": {
+                    "com.figma.scopes": [
+                        "GAP"
+                    ],
+                    "com.figma.hiddenFromPublishing": true
+                },
+                "$value": 96,
+                "$type": "number",
+                "$description": "Generated to complete the spacing ramp — not a literal value pulled from Figma."
+            },
+            "spacing-7xl": {
+                "$extensions": {
+                    "com.figma.scopes": [
+                        "GAP"
+                    ],
+                    "com.figma.hiddenFromPublishing": true
+                },
+                "$value": 128,
+                "$type": "number",
+                "$description": "Generated to complete the spacing ramp — not a literal value pulled from Figma."
+            },
+            "spacing-8xl": {
+                "$extensions": {
+                    "com.figma.scopes": [
+                        "GAP"
+                    ],
+                    "com.figma.hiddenFromPublishing": true
+                },
+                "$value": 160,
+                "$type": "number",
+                "$description": "Generated to complete the spacing ramp — not a literal value pulled from Figma."
+            }
+        }
+    },
+    "4": {
+        " Typography/Mode 1": {
+            "Font family": {
+                "primary": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "ALL_SCOPES"
+                        ],
+                        "com.figma.hiddenFromPublishing": true
+                    },
+                    "$value": "Inter",
+                    "$type": "text",
+                    "$description": "Confirmed from ThinkFirm Figma audit. Inter is the dominant typeface across every audited file. Two stray typefaces (Proxima Nova, LSEG Motto) were found in isolated spots during the audit and are intentionally excluded here to keep the system on a single family."
+                }
+            },
+            "Font weight": {
+                "regular": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "FONT_STYLE"
+                        ],
+                        "com.figma.hiddenFromPublishing": true
+                    },
+                    "$value": "Regular",
+                    "$type": "text",
+                    "$description": "Confirmed from ThinkFirm Figma audit."
+                },
+                "medium": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "FONT_STYLE"
+                        ],
+                        "com.figma.hiddenFromPublishing": true
+                    },
+                    "$value": "Medium",
+                    "$type": "text",
+                    "$description": "Confirmed from ThinkFirm Figma audit."
+                },
+                "semibold": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "FONT_STYLE"
+                        ],
+                        "com.figma.hiddenFromPublishing": true
+                    },
+                    "$value": "Semibold",
+                    "$type": "text",
+                    "$description": "Generated to complete the weight ramp — not a literal value pulled from Figma. Not directly observed, but Inter Semibold is the natural step between Medium and Bold for a full type system."
+                },
+                "bold": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "FONT_STYLE"
+                        ],
+                        "com.figma.hiddenFromPublishing": true
+                    },
+                    "$value": "Bold",
+                    "$type": "text",
+                    "$description": "Confirmed from ThinkFirm Figma audit."
+                }
+            },
+            "Font size": {
+                "caption": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "FONT_SIZE"
+                        ],
+                        "com.figma.hiddenFromPublishing": true
+                    },
+                    "$value": 12,
+                    "$type": "number",
+                    "$description": "Confirmed from ThinkFirm Figma audit."
+                },
+                "body-sm": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "FONT_SIZE"
+                        ],
+                        "com.figma.hiddenFromPublishing": true
+                    },
+                    "$value": 14,
+                    "$type": "number",
+                    "$description": "Confirmed from ThinkFirm Figma audit."
+                },
+                "body-md": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "FONT_SIZE"
+                        ],
+                        "com.figma.hiddenFromPublishing": true
+                    },
+                    "$value": 16,
+                    "$type": "number",
+                    "$description": "Confirmed from ThinkFirm Figma audit."
+                },
+                "body-lg": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "FONT_SIZE"
+                        ],
+                        "com.figma.hiddenFromPublishing": true
+                    },
+                    "$value": 18,
+                    "$type": "number",
+                    "$description": "Confirmed from ThinkFirm Figma audit."
+                },
+                "h4": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "FONT_SIZE"
+                        ],
+                        "com.figma.hiddenFromPublishing": true
+                    },
+                    "$value": 20,
+                    "$type": "number",
+                    "$description": "Generated to complete the type ramp — not a literal value pulled from Figma."
+                },
+                "h3": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "FONT_SIZE"
+                        ],
+                        "com.figma.hiddenFromPublishing": true
+                    },
+                    "$value": 24,
+                    "$type": "number",
+                    "$description": "Confirmed from ThinkFirm Figma audit."
+                },
+                "h2": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "FONT_SIZE"
+                        ],
+                        "com.figma.hiddenFromPublishing": true
+                    },
+                    "$value": 30,
+                    "$type": "number",
+                    "$description": "Generated to complete the type ramp — not a literal value pulled from Figma."
+                },
+                "h1": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "FONT_SIZE"
+                        ],
+                        "com.figma.hiddenFromPublishing": true
+                    },
+                    "$value": 36,
+                    "$type": "number",
+                    "$description": "Generated to complete the type ramp — not a literal value pulled from Figma."
+                },
+                "display": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "FONT_SIZE"
+                        ],
+                        "com.figma.hiddenFromPublishing": true
+                    },
+                    "$value": 48,
+                    "$type": "number",
+                    "$description": "Generated to complete the type ramp — not a literal value pulled from Figma."
+                }
+            },
+            "Line height": {
+                "tight": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "LINE_HEIGHT"
+                        ],
+                        "com.figma.hiddenFromPublishing": true
+                    },
+                    "$value": 1.2,
+                    "$type": "number",
+                    "$description": "Generated to complete the line-height ramp — not a literal value pulled from Figma."
+                },
+                "normal": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "LINE_HEIGHT"
+                        ],
+                        "com.figma.hiddenFromPublishing": true
+                    },
+                    "$value": 1.5,
+                    "$type": "number",
+                    "$description": "Confirmed from ThinkFirm Figma audit."
+                },
+                "relaxed": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "LINE_HEIGHT"
+                        ],
+                        "com.figma.hiddenFromPublishing": true
+                    },
+                    "$value": 1.75,
+                    "$type": "number",
+                    "$description": "Generated to complete the line-height ramp — not a literal value pulled from Figma."
+                }
+            }
+        }
+    },
+    "5": {
+        " Sizing/Mode 1": {
+            "Component height": {
+                "size-xxs": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "WIDTH_HEIGHT"
+                        ],
+                        "com.figma.hiddenFromPublishing": true
+                    },
+                    "$value": 22,
+                    "$type": "number",
+                    "$description": "Confirmed from ThinkFirm Figma audit. (from the ThinkFirm Design system Buttons frame — XXS through XXL)."
+                },
+                "size-xs": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "WIDTH_HEIGHT"
+                        ],
+                        "com.figma.hiddenFromPublishing": true
+                    },
+                    "$value": 24,
+                    "$type": "number",
+                    "$description": "Confirmed from ThinkFirm Figma audit. (from the ThinkFirm Design system Buttons frame — XXS through XXL)."
+                },
+                "size-sm": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "WIDTH_HEIGHT"
+                        ],
+                        "com.figma.hiddenFromPublishing": true
+                    },
+                    "$value": 26,
+                    "$type": "number",
+                    "$description": "Confirmed from ThinkFirm Figma audit. (from the ThinkFirm Design system Buttons frame — XXS through XXL)."
+                },
+                "size-md": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "WIDTH_HEIGHT"
+                        ],
+                        "com.figma.hiddenFromPublishing": true
+                    },
+                    "$value": 28,
+                    "$type": "number",
+                    "$description": "Confirmed from ThinkFirm Figma audit. (from the ThinkFirm Design system Buttons frame — XXS through XXL)."
+                },
+                "size-lg": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "WIDTH_HEIGHT"
+                        ],
+                        "com.figma.hiddenFromPublishing": true
+                    },
+                    "$value": 30,
+                    "$type": "number",
+                    "$description": "Confirmed from ThinkFirm Figma audit. (from the ThinkFirm Design system Buttons frame — XXS through XXL)."
+                },
+                "size-xl": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "WIDTH_HEIGHT"
+                        ],
+                        "com.figma.hiddenFromPublishing": true
+                    },
+                    "$value": 32,
+                    "$type": "number",
+                    "$description": "Confirmed from ThinkFirm Figma audit. (from the ThinkFirm Design system Buttons frame — XXS through XXL)."
+                }
+            },
+            "Icon size": {
+                "icon-sm": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "WIDTH_HEIGHT"
+                        ],
+                        "com.figma.hiddenFromPublishing": true
+                    },
+                    "$value": 16,
+                    "$type": "number",
+                    "$description": "Generated to complete the icon sizing ramp — not a literal value pulled from Figma. Sized to sit inside the smaller button/input steps."
+                },
+                "icon-md": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "WIDTH_HEIGHT"
+                        ],
+                        "com.figma.hiddenFromPublishing": true
+                    },
+                    "$value": 20,
+                    "$type": "number",
+                    "$description": "Generated to complete the icon sizing ramp — not a literal value pulled from Figma."
+                },
+                "icon-lg": {
+                    "$extensions": {
+                        "com.figma.scopes": [
+                            "WIDTH_HEIGHT"
+                        ],
+                        "com.figma.hiddenFromPublishing": true
+                    },
+                    "$value": 24,
+                    "$type": "number",
+                    "$description": "Generated to complete the icon sizing ramp — not a literal value pulled from Figma. Matches the icon size seen repeatedly in the Component pages (e.g. sidebar/search/clock icons)."
+                }
+            }
+        }
+    },
+    "$themes": [],
+    "$metadata": {
+        "tokenSetOrder": [
+            "global",
+            "1. Color Styles/Mode 1",
+            "4. Typography/Mode 1",
+            "2. Radius/Mode 1",
+            "3. Spacing/Mode 1",
+            "5. Sizing/Mode 1"
+        ]
+    }
+}

@@ -40,7 +40,7 @@ export function Input({ label, helperText, error, disabled, size = 'md', classNa
         aria-invalid={hasError || undefined}
         className={cx(
           'w-full border text-text-primary outline-none transition-colors',
-          'placeholder:text-gray-7',
+          'placeholder:text-text-secondary',
           RADIUS,
           SIZE_CLASSES[size],
           // focus-ring/error-base rings render at low opacity (a soft glow
