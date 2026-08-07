@@ -1,4 +1,4 @@
-import { Navigate, Route, Routes, useLocation } from 'react-router-dom';
+import { Navigate, Route, Routes } from 'react-router-dom';
 import StyleGuide from './pages/StyleGuide';
 import StyleGuide2 from './pages/StyleGuide2';
 import Dashboard from './pages/Dashboard';
@@ -11,15 +11,6 @@ import ResetPassword from './pages/auth/ResetPassword';
 import ContactSupport from './pages/auth/ContactSupport';
 import Policy from './pages/Policy';
 import { Inspector } from './components/styleguide/Inspector';
-
-// Inspector is a style-guide dev tool (inspects [data-inspectable] elements
-// on the guide/master-components pages) — it has no business floating over
-// real product pages like the auth screens, so it's scoped to guide routes.
-function InspectorForGuideRoutes() {
-  const { pathname } = useLocation();
-  const isGuideRoute = !pathname.startsWith('/auth');
-  return isGuideRoute ? <Inspector /> : null;
-}
 
 function App() {
   return (
@@ -38,7 +29,7 @@ function App() {
         <Route path="/auth/contact-support" element={<ContactSupport />} />
         <Route path="/policy" element={<Policy />} />
       </Routes>
-      <InspectorForGuideRoutes />
+      <Inspector />
     </>
   );
 }

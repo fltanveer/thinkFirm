@@ -6,6 +6,7 @@ import { HugeiconsIcon } from '@hugeicons/react';
 import {
   ArrowLeft01Icon,
   CheckmarkCircle02Icon,
+  Login01Icon,
   LockIcon,
 } from '@hugeicons-pro/core-stroke-rounded';
 import { AuthLayout } from '../../components/patterns/auth/AuthLayout';
@@ -56,7 +57,13 @@ export default function ResetPassword() {
           <p className="max-w-[22rem] text-sg2-body-sm text-sg2-text-secondary">
             Your password has been updated. You can now sign in with your new password.
           </p>
-          <Button variant="primary" size="md" className="mt-sg2-md w-full" onClick={() => navigate('/auth/sign-in')}>
+          <Button
+            variant="primary"
+            size="md"
+            className="mt-sg2-md w-full"
+            icon={<HugeiconsIcon icon={Login01Icon} size={15} />}
+            onClick={() => navigate('/auth/sign-in')}
+          >
             Continue to sign in
           </Button>
         </div>

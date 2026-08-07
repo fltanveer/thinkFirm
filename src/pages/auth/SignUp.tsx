@@ -4,6 +4,8 @@ import { Tabs } from '../../components/ui2/Tabs';
 import { Input } from '../../components/ui2/Input';
 import { Checkbox } from '../../components/ui2/Checkbox';
 import { Button } from '../../components/ui2/Button';
+import { HugeiconsIcon } from '@hugeicons/react';
+import { UserAdd01Icon } from '@hugeicons-pro/core-stroke-rounded';
 import { AuthLayout } from '../../components/patterns/auth/AuthLayout';
 import { PasswordField } from '../../components/patterns/auth/PasswordField';
 import { AuthAlert } from '../../components/patterns/auth/AuthAlert';
@@ -27,7 +29,7 @@ export default function SignUp() {
 
       <Tabs
         variant="segmented"
-        className="mt-sg2-xl w-full"
+        className="mt-sg2-xl w-full [&_[role=tab]]:font-semibold"
         items={[
           { value: 'signin', label: 'Sign In' },
           { value: 'signup', label: 'Sign Up' },
@@ -103,10 +105,9 @@ export default function SignUp() {
 
         <div className="flex items-start gap-sg2-sm">
           <Checkbox
-            size="sm"
+            size="md"
             checked={agreed}
             onChange={(e) => setAgreed(e.target.checked)}
-            className="mt-[2px]"
           />
           <p className="text-sg2-body-sm text-sg2-text-secondary">
             I agree to the{' '}
@@ -120,7 +121,14 @@ export default function SignUp() {
           </p>
         </div>
 
-        <Button type="submit" variant="primary" size="md" className="w-full" disabled={!agreed}>
+        <Button
+          type="submit"
+          variant="primary"
+          size="md"
+          className="w-full"
+          disabled={!agreed}
+          icon={<HugeiconsIcon icon={UserAdd01Icon} size={15} />}
+        >
           Create account
         </Button>
       </form>

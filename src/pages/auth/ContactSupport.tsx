@@ -4,7 +4,7 @@ import { Combobox } from '../../components/ui2/Combobox';
 import { Input } from '../../components/ui2/Input';
 import { Button } from '../../components/ui2/Button';
 import { HugeiconsIcon } from '@hugeicons/react';
-import { ArrowLeft01Icon, Attachment01Icon, Cancel01Icon, Upload01Icon } from '@hugeicons-pro/core-stroke-rounded';
+import { ArrowLeft01Icon, Attachment01Icon, Cancel01Icon, MessageDone01Icon, Upload01Icon } from '@hugeicons-pro/core-stroke-rounded';
 import { AuthLayout } from '../../components/patterns/auth/AuthLayout';
 import { AuthAlert } from '../../components/patterns/auth/AuthAlert';
 
@@ -71,6 +71,7 @@ export default function ContactSupport() {
           menuSearch
           required
           size="md"
+          className="[&_[role=combobox]]:!min-h-0"
           options={CATEGORIES}
           value={category || null}
           onChange={(v) => setCategory(v ?? '')}
@@ -120,6 +121,7 @@ export default function ContactSupport() {
               type="button"
               variant="stroke"
               size="sm"
+              className="!min-h-[36px]"
               icon={<HugeiconsIcon icon={Upload01Icon} size={14} />}
               onClick={() => fileInputRef.current?.click()}
             >
@@ -158,6 +160,7 @@ export default function ContactSupport() {
           size="md"
           className="w-full"
           disabled={!category || !subject.trim() || !details.trim()}
+          icon={<HugeiconsIcon icon={MessageDone01Icon} size={15} />}
         >
           Submit request
         </Button>

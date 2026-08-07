@@ -5,7 +5,7 @@ import { Input } from '../../components/ui2/Input';
 import { Checkbox } from '../../components/ui2/Checkbox';
 import { Button } from '../../components/ui2/Button';
 import { HugeiconsIcon } from '@hugeicons/react';
-import { Link01Icon, SmartPhone01Icon, LockPasswordIcon } from '@hugeicons-pro/core-stroke-rounded';
+import { Link01Icon, SmartPhone01Icon, LockPasswordIcon, Login01Icon } from '@hugeicons-pro/core-stroke-rounded';
 import { AuthLayout } from '../../components/patterns/auth/AuthLayout';
 import { PinInput } from '../../components/patterns/auth/PinInput';
 import { PasswordField } from '../../components/patterns/auth/PasswordField';
@@ -40,7 +40,7 @@ export default function SignIn() {
       {method === 'password' && (
         <Tabs
           variant="segmented"
-          className="mt-sg2-xl w-full"
+          className="mt-sg2-xl w-full [&_[role=tab]]:font-semibold"
           items={[
             { value: 'signin', label: 'Sign In' },
             { value: 'signup', label: 'Sign Up' },
@@ -114,10 +114,9 @@ export default function SignIn() {
 
         <div className="flex items-start gap-sg2-sm">
           <Checkbox
-            size="sm"
+            size="md"
             checked={agreed}
             onChange={(event) => setAgreed(event.target.checked)}
-            className="mt-[2px]"
           />
           <p className="text-sg2-body-sm text-sg2-text-secondary">
             I agree to the{' '}
@@ -137,7 +136,12 @@ export default function SignIn() {
           size="md"
           className="w-full"
           disabled={!agreed}
-          icon={method === 'magic-link' ? <HugeiconsIcon icon={Link01Icon} size={15} /> : undefined}
+          icon={
+            <HugeiconsIcon
+              icon={method === 'magic-link' ? Link01Icon : method === '2fa' ? SmartPhone01Icon : Login01Icon}
+              size={15}
+            />
+          }
         >
           {method === 'magic-link' ? 'Send magic link' : method === '2fa' ? 'Verify and sign in' : 'Sign in'}
         </Button>

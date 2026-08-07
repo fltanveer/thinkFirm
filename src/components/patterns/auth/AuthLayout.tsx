@@ -7,7 +7,7 @@ import authVideo from '../../../assets/business_outcomes_motion_animation_h264.m
 export function AuthLayout({ children }: { children: ReactNode }) {
   return (
     <div className="grid min-h-dvh grid-cols-1 bg-sg2-bg-page lg:h-dvh lg:grid-cols-2 lg:overflow-hidden">
-      <main className="flex min-h-dvh items-start justify-center overflow-y-auto bg-sg2-bg-card px-sg2-xl py-sg2-2xl [&_a]:text-sg2-body-sm [&_button]:min-h-[44px] [&_button]:text-sg2-body-sm [&_input]:text-sg2-body-sm [&_label]:text-sg2-body-sm [&_li]:text-sg2-body-sm [&_p]:text-sg2-body-sm [&_span]:text-sg2-body-sm [&_textarea]:text-sg2-body-sm lg:h-dvh">
+      <main className="flex min-h-dvh items-start justify-center overflow-y-auto bg-sg2-bg-card px-sg2-xl py-sg2-2xl [&_.text-sg2-text-secondary]:text-sg2-text-primary [&_a]:text-sg2-body-sm [&_button]:min-h-[44px] [&_button]:text-sg2-body-sm [&_button]:font-semibold [&_input]:text-sg2-body-sm [&_input]:font-medium [&_label]:text-sg2-body-sm [&_label]:text-sg2-text-primary [&_li]:text-sg2-body-sm [&_li]:font-medium [&_p]:text-sg2-body-sm [&_p]:font-medium [&_span]:text-sg2-body-sm [&_span]:font-medium [&_textarea]:text-sg2-body-sm [&_textarea]:font-medium lg:h-dvh">
         <div className="my-auto w-full max-w-[28rem]">{children}</div>
       </main>
 

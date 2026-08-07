@@ -23,8 +23,8 @@ const BOX_SIZE_CLASSES: Record<CheckboxSize, string> = {
 
 const ICON_SIZE: Record<CheckboxSize, number> = {
   sm: 9,
-  md: 12,
-  lg: 15,
+  md: 14,
+  lg: 16,
 };
 
 const LABEL_TEXT_CLASSES: Record<CheckboxSize, string> = {
@@ -87,7 +87,7 @@ export function Checkbox({
           {indeterminate ? (
             <IconMinus width={iconSize} height={iconSize} strokeWidth={2} />
           ) : (
-            <IconCheck width={iconSize} height={iconSize} strokeWidth={2} />
+            <IconCheck width={iconSize} height={iconSize} strokeWidth={size === 'sm' ? 2 : 2.5} />
           )}
         </span>
       </span>
